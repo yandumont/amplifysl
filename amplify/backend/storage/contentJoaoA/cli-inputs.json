@@ -1,0 +1,14 @@
+{
+  "resourceName": "contentJoaoA",
+  "policyUUID": "6125084f",
+  "bucketName": "amplifyconsolecicddee8dbdd9f893b4815839c4057712",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
