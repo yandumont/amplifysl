@@ -39,11 +39,15 @@ function App() {
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
         placeholder="Nome da Nota"
+        color='black'
+        backgroundColor='yellow'
         value={formData.name}
       />
       <input
         onChange={e => setFormData({ ...formData, 'description': e.target.value})}
         placeholder="Descrição da Nota"
+        color='black'
+        backgroundColor='yellow'
         value={formData.description}
       />
       <button onClick={createNote}>Criar nota</button>
